@@ -1,4 +1,5 @@
-<div class="navigation-v2__container">
+ {{#if testButton}}<button class="navigation-v2__test-button">animate</button>{{/if}}
+<div class="navigation-v2__container" {{#if dataModule}} data-module="{{dataModule}}" {{/if}}>
   <div class="container">
     <div class="navigation-v2">
       <nav>
@@ -13,7 +14,9 @@
         <div class="marker"></div>
       </nav>
       <div class="navigation-v2__sections">
-        {{> menu-overlay-section}}
+        {{#each sections}}
+          {{> menu-overlay-section items=items title=title subtitle=subtitle}}
+        {{/each}}
       </div>
     </div>
   </div>

@@ -1,4 +1,4 @@
-import menuTrigger from '../../html/components/menu-trigger.hbs';
+import menuTrigger from '../../html/components/menu/menu-trigger.hbs';
 
 export default {
   title: 'Components/MainMenu/Menu Trigger',

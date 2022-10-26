@@ -14,7 +14,7 @@ const components = [
     loader: () => import('./components/menu/menuTrigger')
   },
   {
-    name: 'overlay-navigation-animator',
+    name: 'menu-overlay-navigation',
     loader: () => import('./components/menu/menuOverlayNavigation')
   }
 ];

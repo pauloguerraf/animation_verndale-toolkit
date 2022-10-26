@@ -1,0 +1,23 @@
+<article id="@@id" class="navigation-v2__section">
+  <div class="navigation-v2__animated-item navigation-v2__header">
+    <h2>{{{title}}}</h2>
+    <a href="#" data-module="analytics" data-name="Work">
+      {{{subtitle}}}
+      <svg viewBox="0 0 320 147">
+        <use xlink:href="#arrow-right-v2"></use>
+      </svg>
+    </a>
+  </div>
+
+  <div class="navigation-v2-one__container">
+    {{#each items}}
+      <div class="navigation-v2__item navigation-v2__animated-item">
+        <span class="navigation-v2__item--line"></span>
+        <a href="#" data-name="Aspen Snowmass/CMS"></a>
+        <p>{{label}}</p>
+        <span>{{tag}}</span>
+        <span class="navigation-v2__item--line"></span>
+      </div>
+    {{/each}}
+  </div>
+</article>

@@ -23,7 +23,7 @@
     "prebuild": "yarn check-deps && yarn js-lint && yarn style-lint",
     "build": "rimraf dist && webpack --env production --progress",
     "build-storybook": "build-storybook -o ./tools/component-library/",
-    "pre-commit": "lint-staged",
+    "pre-commit": "",
     "prepare": "husky install",
     "create-page": "node ./.scaffold/index page",
     "create-module": "node ./.scaffold/index module",
