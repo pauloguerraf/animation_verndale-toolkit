@@ -16,6 +16,10 @@ const components = [
   {
     name: 'overlay-navigation-animator',
     loader: () => import('./components/menu/menuOverlayNavigation')
+  },
+  {
+    name: 'pattern-grid',
+    loader: () => import('./components/grid')
   }
 ];
 
