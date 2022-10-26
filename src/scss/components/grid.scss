@@ -1,0 +1,11 @@
+.pattern-grid__wrapper {
+  max-inline-size: 1920px;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.pattern-grid {
+  inset: 0;
+  position: absolute;
+}

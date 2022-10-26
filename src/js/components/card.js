@@ -75,7 +75,6 @@ class Module extends Component {
   handleCardHoverOut(e) {
     const card = e.currentTarget;
     const hasImage = !!this.dom.image;
-    console.log(hasImage);
     const linesReversed = card.lineSplit.lines.slice().reverse();
     linesReversed.forEach((line, index) => {
       const sequence = [
