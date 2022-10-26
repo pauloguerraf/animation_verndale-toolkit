@@ -1,0 +1,175 @@
+.card-pattern__wrapper {
+  position: absolute;
+  inset: 0;
+}
+.card-pattern {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -5%;
+  right: -5%;
+  z-index: 10;
+
+  &.card-pattern__variation--1 {
+    width: 265px;
+    height: 279px;
+  }
+  &.card-pattern__variation--2 {
+    width: 316px;
+    height: 283px;
+  }
+  &.card-pattern__variation--3 {
+    width: 329px;
+    height: 240px;
+  }
+  &.card-pattern__variation--4 {
+    width: 331px;
+    height: 242px;
+  }
+  &.card-pattern__variation--5 {
+    width: 331px;
+    height: 236px;
+  }
+  &.card-pattern__variation--6 {
+    width: 331px;
+    height: 238px;
+  }
+}
+
+.card-pattern__container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+
+  .card-pattern__chevron,
+  .card-pattern__chevron--w-accent,
+  .card-pattern__panels {
+    position: absolute;
+    background-color: transparent;
+    opacity: 1;
+  }
+
+  .card-pattern__chevron {
+    .chevron {
+      fill: #1c1c1c;
+    }
+  }
+
+  .card-pattern__panels {
+    .panels {
+      fill: #1c1c1c;
+    }
+  }
+
+  .card-pattern__chevron--w-accent {
+    .accent {
+      fill: #ffa900;
+    }
+    .chevron {
+      fill: #1c1c1c;
+    }
+  }
+}
+
+.card-pattern__variation--1 {
+  .card-pattern__chevron {
+    top: 126px;
+    right: 0px;
+  }
+
+  .card-pattern__chevron--w-accent {
+    top: 134px;
+    left: 0px;
+  }
+
+  .card-pattern__panels {
+    top: 0px;
+    left: 76px;
+  }
+}
+
+.card-pattern__variation--2 {
+  .card-pattern__chevron {
+    left: 0 px;
+    top: 90px;
+  }
+
+  .card-pattern__chevron--w-accent {
+    left: 127px;
+    top: 0px;
+  }
+
+  .card-pattern__panels {
+    left: 70px;
+    top: 137px;
+  }
+}
+
+.card-pattern__variation--3 {
+  .card-pattern__chevron {
+    left: 65px;
+    top: 130px;
+  }
+
+  .card-pattern__chevron--w-accent {
+    left: 140px;
+    top: 0px;
+  }
+
+  .card-pattern__panels {
+    left: 0px;
+    top: 8px;
+  }
+}
+
+.card-pattern__variation--4 {
+  .card-pattern__chevron {
+    left: 140px;
+    top: 0px;
+  }
+
+  .card-pattern__chevron--w-accent {
+    left: 140px;
+    top: 87px;
+  }
+
+  .card-pattern__panels {
+    left: 0px;
+    top: 96px;
+  }
+}
+
+.card-pattern__variation--5 {
+  .card-pattern__chevron {
+    right: 0px;
+    top: 127px;
+  }
+
+  .card-pattern__chevron--w-accent {
+    left: 0px;
+    top: 80px;
+  }
+
+  .card-pattern__panels {
+    left: 143px;
+    top: 0px;
+  }
+}
+
+.card-pattern__variation--6 {
+  .card-pattern__chevron {
+    right: 4px;
+    top: 130px;
+  }
+
+  .card-pattern__chevron--w-accent {
+    left: 143px;
+    top: 0px;
+  }
+
+  .card-pattern__panels {
+    left: 0px;
+    top: 83px;
+  }
+}

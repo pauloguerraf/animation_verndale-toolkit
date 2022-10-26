@@ -39,7 +39,11 @@
     "@verndale/front-end-components": "1.10.3",
     "check-dependencies": "1.1.0",
     "focus-visible": "5.2.0",
+    "lodash": "4.17.21",
+    "motion": "10.14.2",
     "sass-mq": "6.0.0",
+    "split-type": "0.3.2",
+    "splitting": "1.0.6",
     "webpack-svgstore": "2.0.2"
   },
   "devDependencies": {

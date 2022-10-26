@@ -1,0 +1,62 @@
+.card {
+  aspect-ratio: 3/4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 40px;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
+  z-index: 0;
+
+  &.card--with-pattern {
+    color: #1c1c1c;
+  }
+
+  &::after {
+    content: "";
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  &:not(.card--with-pattern)::after {
+    background: rgba(0, 0, 0, 0.56);
+  }
+
+  a {
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    z-index: 11;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+    z-index: -3;
+  }
+}
+
+.card__overlay {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: #1c1c1c;
+  transform-origin: left top;
+  transform: skew(-30deg) scale(0, 1);
+}
+
+.card__text {
+  position: absolute;
+  z-index: 2;
+  padding: 40px 60px 0 40px;
+  inset: 0;
+  font-size: 24px;
+}
